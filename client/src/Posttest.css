@@ -1,0 +1,17 @@
+.codebox
+{
+    width: 30%;
+    height: 200px;
+}
+.markdown
+{
+    width: 30%;
+    height: 400px;
+}
+.boxhill
+{
+    border-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    color: burlywood;
+}

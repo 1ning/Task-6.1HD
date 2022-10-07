@@ -1,0 +1,50 @@
+.top{
+  background:#c7c7c7 ;padding-left:1%;padding-right:1%;font-size: 25; line-height:23px; width: 96%;margin-left: 2%;} 
+.UploadRadio{
+ padding-left: 2%;
+ padding-right: 10%;
+ padding-top: 2%;
+ padding-bottom: 1%;
+}
+.UploadRadio1{
+  padding-right: 1%;
+}
+.UploadRadio2{
+  padding-bottom: 3%;
+}
+.Uploadbox1{
+    width: 98%;
+  }
+.Uploadbox2{
+  border-color: black;
+
+    }
+.upload{
+  display: inline-table;
+  width: min-content;
+  margin-left: 1%;
+}
+.Uploadtextbox{
+  width: 30%;
+  border-width: 1px;
+  font-size: smaller;
+  outline:none;
+}
+.Uploadtextbox2{
+  width: 45%;
+  border-width: 1px;
+  font-size: smaller;
+  outline:none;
+}
+.button1{
+margin-left: 86%;
+margin-top: 2%;
+width: 8%;
+font-size: larger;
+background-color: #c7c7c7;
+border-width: 0;
+}
+.upload
+{
+  width:8%;
+}

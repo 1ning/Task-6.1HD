@@ -1,0 +1,47 @@
+#bad{
+    float: left;
+}
+.headbox1{
+    margin-left: 4%;
+    width: 80%;
+    border-top:0.2px solid rgb(145, 143, 143);
+    border-bottom:0.2px solid rgb(145, 143, 143);
+}
+.fw{
+  margin-left: 90%;
+  font-size:small
+}
+.SD{
+    margin-left: 88%;
+    height: 30px;
+    width:fit-content;
+    margin-bottom: 0;
+  }
+
+.photo{
+    width:100%;
+    margin-top: 6%;
+}
+.big2{
+    width: 60%;
+    float: left;
+}
+.big1{
+    width: 15%;
+    float: left;
+}
+.Nheadbox2{
+    margin-left: 4%;
+    width: 80%;
+    border-bottom:0.1px solid rgb(0, 0, 0);
+    border-width: 2px;
+}
+.Nbox2{
+    width: 80%;
+}
+.Nbox3
+{
+    padding-top: 10%;
+}
+
+

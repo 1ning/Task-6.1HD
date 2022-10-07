@@ -1,0 +1,56 @@
+.top{
+    background:#c7c7c7 ;padding-left:1%;padding-right:1%;font-size: 25; line-height:23px; width: 96%;margin-left: 2%;} 
+.postRadio{
+   padding-left: 2%;
+   padding-right: 4%;
+   padding-top: 2%;
+   padding-bottom: 1%;
+   outline:none;
+}
+.postRadio1{
+    padding-right: 1%;
+    outline:none;
+ }
+ .postRadio2{
+    padding-bottom: 3%;
+ }
+ .postbox1{
+      width: 98%;
+    }
+.postbox2{
+    border-color: black;
+      }
+.upload{
+    display: inline-table;
+    width: min-content;
+    margin-left: 1%;
+}
+.posttextbox{
+    width: 20%;
+    outline:none;
+    border-width: 1px;
+    font-size: smaller;
+    outline:none;
+}
+.posttextbox2{
+
+    width: 45%;
+    border-width: 1px;
+    font-size: smaller;
+    outline:none;
+}
+.button1{
+ margin-left: 86%;
+ width: 8%;
+ font-size: larger;
+ background-color: #c7c7c7;
+ border-width: 0;
+}
+.upload
+{
+    width:8%;
+}
+.posttextbox2
+{
+    outline:none;
+}

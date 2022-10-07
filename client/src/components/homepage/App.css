@@ -1,0 +1,142 @@
+.Subscribe{
+    background:#c7c7c7 ;
+    padding-left:1%;
+    padding-right:1%;
+    font-size: 25%; 
+    line-height:23px;
+    width: 96%;
+    margin-left: 2%;
+    } 
+.Submit{ background:#9b9797;  font-size:small; width:fit-content ;border-width: 0px;margin-bottom: 1%; margin-left: 5px; } 
+#email{
+    margin-left:2%;
+    border-width: 0.5px;
+    margin-right: 1%;
+    width: 34%;
+   font-size: small;
+    border-color: black;
+    margin-top: 1%;
+}
+.Signup{
+    font-size: small;
+}
+#Homepagesearch{
+    background: url("/photo/search.png") no-repeat ;
+    background-size: 20px;
+    background-position:1px 0px;
+    margin-left:2%;
+    background-color: aliceblue;
+    width:60%;
+    border-width: 0;
+    font-size: medium;
+    margin-right: 2%;
+    margin-bottom: 0.5%;
+    padding-left: 30px;
+    outline:none
+}
+#Homepagesearch::placeholder {
+    color: rgb(190, 185, 185);
+    font-size: 1px;
+  }    
+#bell
+{
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+.HomgepageButton{
+    border-color: black;
+    border-width: 0px;
+    background-color: #c7c7c7;
+    padding-left: 1%;
+    font-size:small;
+    height: fit-content;
+}
+#email::placeholder {
+   color: black;
+   font-size: 10px;
+ }   
+ .Homgepageheadphoto{
+    width: 96%; 
+    height: 200px;
+ } 
+ .head{
+    padding-top: 2%;
+    text-align: center;
+    width: 100%;
+    color: black;
+ }
+ .title{
+    font-size:x-large
+ }
+ .extracontent{
+    text-align: left;
+ }
+ #uicard{
+    width: 25%;
+    margin-inline: 4%;
+    display:inline-flex; 
+ }
+ .description{
+    text-align:left;
+    font-size: small;
+ }
+ #star{
+   padding-right:60%;
+   color: gold;
+   margin-bottom: 0px;
+ }
+ #star1{
+    padding-right:22%;
+    color: gold;
+    margin-bottom: 0px;
+  }
+#button1{
+    color: black;
+    margin-top: 30px;
+}
+#button2{
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 6%;
+}
+.item1{
+    vertical-align: top;
+    display:inline-block; 
+    padding-left: 1%;
+}
+.item2{
+    vertical-align: top;
+    display:inline-block; 
+    padding-left: 28%;
+}
+.item{
+    display:flex; 
+    color: black;
+
+}
+.item3{
+    vertical-align: top;
+    display:inline-block; 
+    padding-left: 5%;
+    color: black;
+    margin-bottom: 5%;
+}
+.bottompage{
+    margin-top: 3%;
+    background-color: rgb(28, 131, 131);
+    padding-left: 30px;
+    color: black;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    display:inline-block; 
+    padding-right: 5px;
+}
+.menu{
+    margin-top: 10px;
+}
+.box3{
+    float: right;
+    padding-right: 2%;
+}

@@ -1,0 +1,61 @@
+#bad{
+    float: left;
+}
+.headbox1{
+    margin-left: 4%;
+    width: 80%;
+    border-top:0.2px solid rgb(145, 143, 143);
+    border-bottom:0.2px solid rgb(145, 143, 143);
+}
+.fw{
+  margin-left: 90%;
+  font-size:small
+}
+.SD{
+    margin-top: 0%;
+    margin-left: 88%;
+    margin-bottom: 2%;
+}
+.cinema{
+    font-size: 1%;
+    
+}
+#selection
+{
+    margin-left: 0%;
+    width: 10%;
+    font-size: small;
+    outline: none;
+}
+#search{
+    width:60%;
+    margin-right: 0%;
+    outline: none;
+    background: url("/photo/search.png") no-repeat ;
+    background-size: 20px;
+    background-position:1px 0px;
+    margin-left:2%;
+    background-color: aliceblue;
+    width: 70%;
+    border-width: 0;
+    height: 20px;
+    padding-left: 30px;
+}
+.photo{
+    width:100%;
+    margin-top: 6%;
+}
+.big2{
+    width: 60%;
+    float: left;
+}
+.big1{
+    width: 15%;
+    float: left;
+}
+.articlephoto
+{
+    height: 80px;
+    margin-top: 7%;
+}
+
