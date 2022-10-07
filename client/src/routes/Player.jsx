@@ -34,7 +34,7 @@ const [postinfo, setpostinfo] = useState("");
   //Update posted comments to the video author's notification
   function writeUserData(data1) {
     var arr1= new Array()
-    onValue(ref(db2,currentUser.uid), (snapshot) => {
+    onValue(ref(db2,currentPlay.uid), (snapshot) => {
       arr1=[];
       if(snapshot.val()!=null)
       arr1= snapshot.val().context;
@@ -42,12 +42,12 @@ const [postinfo, setpostinfo] = useState("");
 			if(arr1!=null)
 			 {
         arr1.push(data1)
-        update(ref(db2,currentUser.uid), {
+        update(ref(db2,currentPlay.uid), {
           context:arr1,
         });
         }
        else{
-        set(ref(db2,currentUser.uid), {
+        set(ref(db2,currentPlay.uid), {
           context:arr1,
         });
        }

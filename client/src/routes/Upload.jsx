@@ -25,18 +25,19 @@ function Upload(){
     rating:5,
     ratetime:1,
     author:"",
-    comment:[]
+    comment:[],
+    uid:""
   })
    
   const nav = useNavigate();
-  const imagesListRef = ref(storage, "images/");
-  //Upload video
+  //Upload img
   const uploadFile = () => {
     if (imageUpload == null) return;
     const imageRef = ref(storage, `images/${imageUpload.name + v4()}`);
     uploadBytes(imageRef, imageUpload).then((snapshot) => {
       getDownloadURL(snapshot.ref).then((url) => {
-        alert("Upload successful")
+        console.log(url)
+        alert(url)
         setContact((prev) => ({ ...prev, img: url }));
       });
     });
@@ -62,6 +63,7 @@ function Upload(){
         {
         contact.time=new Date()
         contact.author=currentUser.email;
+        contact.uid=currentUser.uid
         }
         addCollectionAndDocument('video',contact)
         alert("upload successfully")
@@ -100,11 +102,11 @@ function Upload(){
      <input type="text" placeholder='Enter a descriptive title.' class="Uploadtextbox" name="title" onChange={handleChange} value={contact.title}/> </div>
      <div class="UploadRadio2"><span class="UploadRadio1">Add a Video</span> 
        {(() => {
-          if (imageUpload===null) {
+          if (imageUpload2===null) {
             return<input type="text" readOnly  class="Uploadtextbox2" /> 
           }
            else
-            return<input type="text" readOnly  class="Uploadtextbox2" value={imageUpload.name} /> 
+            return<input type="text" readOnly  class="Uploadtextbox2" value={imageUpload2.name} /> 
             })()}
 
               <div class="upload">   
@@ -114,20 +116,20 @@ function Upload(){
               <input type="file"  
                id="file-input"          
               onChange={(event) => {
-               setImageUpload(event.target.files[0]); }} 
+               setImageUpload2(event.target.files[0]); }} 
                hidden
       />
-      <button onClick={uploadFile} class="uploadbox1"> Upload</button>
+      <button onClick={uploadFile2} class="uploadbox1"> Upload</button>
              </div> </div>
 
 
              <div class="Radio2"><span class="UploadRadio1">Add a Video Cover</span> 
        {(() => {
-          if (imageUpload2===null) {
+          if (imageUpload===null) {
             return<input type="text" readOnly  class="Uploadtextbox2" /> 
           }
            else
-            return<input type="text" readOnly  class="Uploadtextbox2" value={imageUpload2.name} /> 
+            return<input type="text" readOnly  class="Uploadtextbox2" value={imageUpload.name} /> 
             })()}
               <div class="upload">   
               <button class="uploadbox1"> 
@@ -136,10 +138,10 @@ function Upload(){
               <input type="file"  
               id="file-input2"          
               onChange={(event) => {
-               setImageUpload2(event.target.files[0]); }} 
+               setImageUpload(event.target.files[0]); }} 
                hidden
       />
-      <button onClick={uploadFile2} class="uploadbox1"> Upload</button>
+      <button onClick={uploadFile} class="uploadbox1"> Upload</button>
              </div> </div>
    <div class="Uploadboxl">
   <span class='UploadRadio1'>Video description</span> 
